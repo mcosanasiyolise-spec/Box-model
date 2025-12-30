@@ -1,0 +1,29 @@
+<Doctype html>
+    <html>
+        <head>
+            <titel>Box Model Example</titel>
+            <style>
+                .box{
+                    width: 250px;
+                    padding: 20px;
+                    margin: 60px auto;
+                    border: 3px solid black
+                    box-shadow 5px 5px 15px grey;
+                    text-align: center;
+                }
+            </style>
+        </head>
+        <body>
+            <h2 style="text-align: center">Scc topics Example</h2>
+            <div class="box">
+            <p>This box shows</p>
+            <ul>
+                <li>box model (border)</li>
+                <li>padding inside</li>
+                <li>margin outside</li>
+                <li>box shadow efect</li>
+                <li>Text text-aligned senter</li>
+            </ul>
+            </div>
+        </body>
+    </html>
